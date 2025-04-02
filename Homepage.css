@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    padding: 10px;
+    background-color: lightblue;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px; */
+    justify-content: center;
+    background-color: #4a4ab5;
+}
+#logo{
+     margin: 40px;
+     position: relative;
+     right: 20%;
+}
+#logo img{
+    width: 50px;
+    background-repeat: no-repeat;
+}
+#tab{
+    /* margin: 60px; */
+    /* border: 1px solid black; */
+    display: flex;
+    
+
+}
+#tab p {
+     width: 48px;
+     padding: 50px;
+     margin: 0px;
+     font-size: 20px;
+     cursor: pointer;
+     /* color: white; */
+     /* text-decoration: none; */
+} 
+#tab a {
+    text-decoration: none;
+    color: white;
+} 
+#tab a:hover{
+    text-decoration: underline;
+}
+ /* #search_bar{
+    margin: 50px;
+    width: 12%;
+    position: relative;
+    left: 20%;
+    /* border: 1px solid black; */
+    /* border-radius: 12px; */    
+ .in{
+    display: flex;
+    position: relative;
+    left: 47%;
+    top: 29%;
+    font-size: 1.3vw;
+    
+    
+ }  
+ #signin{
+    /* border: 1px solid black; */
+    margin: 1vw;
+ }  
+ #signin a {
+    text-decoration: none;
+    color: white;
+}  
+#signin a:hover{
+    text-decoration: underline;
+    color: white;
+} 
+ #login{
+    /* border: 1px solid black; */
+    margin: 1vw; 
+ }      
+ #login a {
+    text-decoration: none;
+    color: white;
+}
+#login a:hover{
+    text-decoration: underline;
+    color: white;
+}   
+main{
+    background-color: #cfe856;
+}
+#intro{
+     text-align: center;
+     font-size: 35px;
+}
+#intro button{
+    width: 10%;
+    margin: 0px 0px 35px 0px ;
+    font-size: 20px;
+    background-color: #8ce3e3;
+    border: 2px solid #8ce3e3;;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#intro button a{
+    text-decoration: none ;
+    color: black;
+}
+#intro button:hover{
+    background-color: #5050df;
+    border: 2px solid #5050df;
+}
+#games{
+    background-color: #f09191;
+    font-size: 35px;
+    text-align: center;
+}
+#gamepic{
+    display: flex;
+     flex-direction: row;
+     font-size: 20px;  
+}
+.gamepic img{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#footer{
+    padding: 21px;
+    font-size: 23px;
+    background-color: lightseagreen;
+    text-align: center;
+}
+
